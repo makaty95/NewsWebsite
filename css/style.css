@@ -196,6 +196,7 @@ button
   border:none;
   border-radius: 10px;
   font-weight: bold;
+  cursor: pointer;
 }
 #haveacc
 {
@@ -241,4 +242,12 @@ a:active{
 a:visited{
   color:white;
   text-decoration: none;
+}
+
+
+/* delete it */
+.delete{
+  color: black !important;
+  font-size: 50px;
+ margin: auto;
 }
