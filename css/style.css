@@ -1,0 +1,89 @@
+body {
+    background-image: url("../images/Newspaper\ Background.jpg");  
+    background-size: 100% 100%;
+    background-position: center;
+  }
+  body, html {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+  }
+  .container {
+     width:100% body ;
+     background-color: black;
+     height:55px;
+     display:flex;
+     align-items: center;
+     font-family: 'Times New Roman', Times, serif;
+     color:white;
+  }
+  #next{
+  float: left;
+  width: 105px;
+  height:20px;
+  align-items: left;
+  padding-left: 20px; 
+  }
+  #line {
+   padding-left: 10px;
+   height: 30px;
+   width: 2px;
+  }
+  #Facebook{
+      width:23px;
+      height:23px;
+      padding-left: 20px;
+  }
+  #instagram{
+      width:23px;
+      height:23px;
+      padding-left: 20px;
+  }
+  #X{
+      width:23px;
+      height:23px;
+      padding-left: 20px;
+  }
+  #text1 {
+  font-size: 20px;
+  font-style: bold;
+  padding-left: 1050px;
+  }
+   #text2
+   {
+      font-size: 20px;
+      font-style: bold;
+      padding-left: 10px;
+   }
+   #formbox{
+      align-items: center;
+   }
+   .box-style {
+      background-color: white;
+      border-radius: 10px;
+      width:370px;
+      height:550px;
+      margin: auto;
+      margin-top:50px;
+      opacity: 85%;
+    }
+    #StHori{
+      width: 120px;
+      padding-top: 30px;
+      padding-left: 15px;
+    }
+    #StHori2{
+      width: 120px;
+    padding-left: 5px;
+    }
+    .signup-text{
+      font-size: 25px;
+      padding-left: 3px;
+      font-weight: bold;
+    }
+    #redline
+    {
+    padding-left: 135px;
+    width:100px;
+    padding-top: 3px;
+    }
