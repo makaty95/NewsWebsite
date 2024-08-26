@@ -1,0 +1,202 @@
+
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #EEE;
+}
+
+#Sign_out_button {
+    border-radius: 20px;
+    width: 100px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: 20px;
+    color:white;
+    background-color: #ff0000;
+    font-weight: bold;
+    border: none;
+
+}
+
+
+input[type=button]:hover {
+    
+    transition: 0.2s;
+    cursor: pointer;
+    background-color: rgb(255, 46, 46) !important;
+}
+
+h2 {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h2.username_h2 {
+    padding: 5px 10px 5px 10px;
+    text-align: center;
+
+}
+
+h2.personal_information_header {
+    margin: 5px 5px 0px 20px;
+
+
+}
+
+#mainDiv {
+    width: 800px;
+    margin: 80px auto auto auto;
+}
+
+#usernameHeader {
+    padding-bottom: 0px;
+
+    height: 50px;
+    display:flex;
+  
+    align-items: center;
+    border-bottom: 1px solid #CCC; 
+}
+
+#profile_pic {
+    border-radius: 50px;
+}
+
+#sideBar {
+    width: 30%;
+    height: 500px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    
+ 
+}
+
+#email {
+    font-size: 70%;
+    margin: 10px 5px 10px 5px;
+    color:rgb(182, 182, 182);
+}
+
+a.sectionText:link {
+    color:rgb(153, 153, 153);
+    text-decoration: none;
+}
+
+a.sectionText:active {
+    color:rgb(141, 0, 0);
+}
+
+a.sectionText:visited {
+    color:rgb(153, 153, 153);
+}
+
+a.sectionText:hover {
+    color:rgb(255, 54, 54);
+}
+
+
+
+
+
+
+li {
+    list-style: none;
+    margin: 20px 5px 10px 5px;
+}
+
+#username {
+    margin: 10px 5px 10px 5px;
+}
+
+
+img {
+    margin: 10px 5px 10px 5px;
+}
+
+
+#userInformation {
+    width:70%;
+}
+
+
+#sidebyside {
+    display:flex;
+    height: 100%;
+}
+
+
+#cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin: 20px 10px 20px 20px;
+}
+
+.cards_element {
+    border-style: solid;
+    border-color:#ccc;
+    border-radius: 25px;
+    border-width: 1px;
+    background-color: rgb(255, 255, 255);
+    width: 240px;
+    height: 100px;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+p.hint_info {
+    font-size: 15px;
+    margin: 0 5px 5px 20px;
+    color:#6c6c6c
+}
+
+h4.card_content {
+    margin: 15px auto auto 15px;
+
+}
+
+.card_img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.break {
+    height: 0px;
+    flex-basis: 100%;
+}
+
+p.card_content {
+    margin: -30px auto auto 15px;
+    color:#565656;
+    font-size: 13px;
+}
+
+input[type=text].card_content, input[type=date].card_content, select {
+    border-radius: 20px;
+    padding: 12px 0px 12px 5px;
+    margin: -10px auto auto 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px; 
+    width: 210px;
+    
+}
+
+input[type=date].card_content:enabled, select:enabled {
+    cursor: pointer;
+}
+
+.regular_button {
+    width: 30%;
+    background-color: #ff0000;
+    color: white;
+    padding: 12px 0px 12px 5px;
+    margin: -10px 10px 10px 375px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+

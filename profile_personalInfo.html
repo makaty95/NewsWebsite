@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" conten="moahemd makaty" />
+    <link rel="stylesheet" href="css/profile_personalInfo.css" />
+    <script type="text/javascript" src="JS/profile_personalInfo.js"></script>
+
+    <title>Welcome to our website!</title>
+  </head>
+
+  <body>
+    <div id="mainDiv">
+      <div id="usernameHeader">
+        <h2 class="username_h2">Mohamed Makaty</h2>
+        <input type="button" value="Sign out" id="Sign_out_button" />
+      </div>
+
+      <div id="sidebyside">
+        <div id="sideBar">
+          <img src="images/man.jpg" height="100" width="100" id="profile_pic" />
+          <br />
+          <label id="username">Mohamed makaty</label>
+          <br />
+          <label id="email">mohamedmakaty@gmail.com</label>
+          <br />
+
+          <ul id="subLinks_list">
+            <li><a href="/profile_personalInfo.html" class="sectionText">Personal information</a></li>
+            <li><a href="/profile_bookmarks.html" class="sectionText">Bookmarks</a></li>
+          </ul>
+        </div>
+
+        <div id="userInformation">
+          <h2 class="personal_information_header">Personal information</h3>
+          <br />
+          <p class="hint_info">Manage your personal information, including name, region and many more..</p>
+
+          <div id="cards">
+
+            <div id="changeName" class="cards_element">
+                <h4 class="card_content">Name</h4>
+                <img src="icons/pfp.png" class="card_img" >
+                
+                <div class="break"></div>
+                <input type="text" id="changeNameBox"class="card_content" value="Mohame makaty" disabled="disabled">
+                
+
+            </div>
+            
+            <div id="changeDOB" class="cards_element">
+              <h4 class="card_content">Date of birth</h4>
+
+              <img src="icons/date.png" class="card_img" >
+                
+                <div class="break"></div>
+                <input type="date" id="changeDOBBox" class="card_content" disabled="disabled">
+            </div>
+
+            <div id="changeRegion" class="cards_element">
+              <h4 class="card_content">Country region</h4>
+
+              <img src="icons/region.png" class="card_img" >
+                
+                <div class="break"></div>
+                <input type="text" id="changeCountryBox" class="card_content" value="Cairo, Egypt" disabled="disabled">
+            </div>
+
+            <div id="changeLanguage" class="cards_element">
+              <h4 class="card_content">Language</h4>
+
+              <img src="icons/lang.png" class="card_img" >
+                
+                <div class="break"></div>
+                <select class="card_content" id="changeLangBox" disabled="disabled">
+                    <option>Arabic (EG)</option>
+                    <option>English (US)</option>
+                </select>
+            </div>
+
+            <div id="changeEmail" class="cards_element">
+              <h4 class="card_content">Email</h4>
+
+              <img src="icons/email.png" class="card_img" >
+                
+                <div class="break"></div>
+                <input type="text" id="changeMailBox" class="card_content" value="mohamedmakaty@gmail.com" disabled="disabled">
+            </div>
+
+
+          </div>
+          
+          <input type="button" id="editInfoButton" value="Edit" class="regular_button" onClick="onEditClick()">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
